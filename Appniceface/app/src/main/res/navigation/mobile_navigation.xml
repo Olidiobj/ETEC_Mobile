@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.appniceface.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_meus_dados"
+        android:name="com.example.appniceface.ui.meus_dados.Meus_DadosFragment"
+        android:label="@string/menu_meus_dados"
+        tools:layout="@layout/fragment_meus_dados" />
+
+    <fragment
+        android:id="@+id/nav_minhas_sessoes"
+        android:name="com.example.appniceface.ui.minhas_sessoes.Minhas_SessoesFragment"
+        android:label="@string/menu_minhas_sessoes"
+        tools:layout="@layout/fragment_minhas_sessoes" />
+
+    <fragment
+        android:id="@+id/nav_agendar"
+        android:name="com.example.appniceface.ui.agendar.AgendarFragment"
+        android:label="@string/menu_agendar"
+        tools:layout="@layout/fragment_agendar" />
+
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="com.example.appniceface.ui.contato.ContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/fragment_contato" />
+
+    <fragment
+        android:id="@+id/nav_sair"
+        android:name="com.example.appniceface.ui.sair.SairFragment"
+        android:label="@string/menu_sair"
+        tools:layout="@layout/fragment_sair" />
+</navigation>

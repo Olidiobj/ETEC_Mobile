@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_meus_dados"
+            android:icon="@drawable/ic_baseline_person_add_alt_1_24"
+            android:title="@string/menu_meus_dados" />
+
+        <item
+            android:id="@+id/nav_minhas_sessoes"
+            android:icon="@drawable/ic_baseline_zoom_in_24"
+            android:title="@string/menu_minhas_sessoes" />
+
+        <item
+            android:id="@+id/nav_agendar"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:title="@string/menu_agendar" />
+
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@drawable/ic_baseline_headset_mic_24"
+            android:title="@string/menu_contato" />
+
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@drawable/ic_baseline_launch_24"
+            android:title="@string/menu_sair" />
+    </group>
+</menu>
