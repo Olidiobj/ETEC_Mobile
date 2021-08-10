@@ -1,6 +1,6 @@
-# Sistema Mobile Clinica
+# Sistema Mobile Clínica
 
 Trabalho de conclusão de módulo (TCC).
-## Curso: Desenvolvimento de Sistemas Etec Basilides de Godoy
+## Curso: Desenvolvimento de Sistemas - Etec Basilides de Godoy
 
-📱 App de uma clínica de estética criado no Android Studio.
+📱 App de uma Clínica de Estética criado no Android Studio.
